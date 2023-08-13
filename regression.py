@@ -17,7 +17,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_
 regressor = LinearRegression().fit(X_train, y_train)
 
 # TODO: reminder Matt
-# replace LogisticRegression with DecisionTreeClassifier, or RandomForestClassifier
+# replace LogisticRegression with DecisionTreeRegressor or RandomForestRegressor
 
 # Predict on the test set
 y_pred = regressor.predict(X_test)
