@@ -30,7 +30,7 @@ print(f"Cluster centers:\n {centers}")
 
 plt.scatter(centers[:, 0], centers[:, 1], c="black", s=200, alpha=0.75)
 plt.title("KMeans Clustering")
-plt.savefig("./kmeans_clustering.png")
+plt.savefig("./unsupervised.png")
 
 # If you"d like to predict the closest cluster for new data points:
 # new_data = [[x1, x2], ...]
