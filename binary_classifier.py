@@ -20,7 +20,7 @@ plt.scatter(X[:, 0], X[:, 1], c=y, cmap="rainbow")
 plt.title("Binary Classifier")
 plt.xlabel("X0")
 plt.ylabel("X1")
-plt.savefig("./binary_classifier.png")
+plt.savefig("binary_classifier.png")
 
 # Split the data into training and test sets (30% of data for testing)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=0)

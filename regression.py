@@ -16,7 +16,7 @@ plt.scatter(X, y)
 plt.xlabel("Hours Studied")
 plt.ylabel("Test Score")
 plt.title("Regression")
-plt.savefig("./regression.png")
+plt.savefig("regression.png")
 
 # Split the data into training and test sets (30% of data for testing)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
