@@ -7,7 +7,7 @@ This repo contains some examples we will walk through in class for module 1.
 git clone https://github.com/matt-berseth/cs451-101Z-MODULE1.git
 
 # path into the repo
-cd cs452-101Z-MODULE1
+cd cs451-101Z-MODULE1
 
 # create the virtual env
 python3.10 -m venv .venv
@@ -29,7 +29,7 @@ code .
 git clone https://github.com/matt-berseth/cs451-101Z-MODULE1.git
 
 # path into the repo
-cd cs452-101Z-MODULE1
+cd cs451-101Z-MODULE1
 
 # create the virtual env
 python3 -m venv .venv
