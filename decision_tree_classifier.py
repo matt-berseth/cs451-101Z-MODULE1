@@ -11,11 +11,6 @@ y_iris = iris.target
 # train a classifier ...
 tree_clf = DecisionTreeClassifier(max_depth=2, random_state=42)
 
-# try some other variants with other hyperparameter values
-#tree_clf = DecisionTreeClassifier(max_depth=5, min_samples_leaf=5, random_state=42)
-#tree_clf = DecisionTreeClassifier(max_depth=5, random_state=42)
-#tree_clf = DecisionTreeClassifier(max_depth=15, random_state=42)
-
 # this is what builds the tree (i.e. identifies the optimal set of rules that
 # splits the data)
 tree_clf.fit(X_iris, y_iris)
